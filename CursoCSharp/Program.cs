@@ -25,6 +25,14 @@ namespace CursoCSharp
                 {"Foreach - Estruturas de Controle", EstruturaForeach.Executar}, 
                 {"Break - Estruturas de Controle", UsandoBreak.Executar},  
                 {"Continue - Estruturas de Controle", UsandoContinue.Executar},  
+                
+                {"Membros - Classes e Metodos", Membros.Executar},  
+                {"Construtores - Classes e Metodos", Construtores.Executar},  
+                {"Metodos com retorno - Classes e Metodos", MetodosComRetorno.Executar},  
+                {"Metodos estaticos - Classes e Metodos", MetodoEstatico.Executar},  
+                {"Atributos estaticos - Classes e Metodos", AtributosEstaticos.Executar},  
+                {"Desafio atributos - Classes e Metodos", DesafioAtributos.Executar},  
+                {"Params - Classes e Metodos", Params.Executar},  
             });
 
             central.SelecionarEExecutar();
