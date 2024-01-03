@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="OO\" />
+    <ProjectReference Include="..\Encapsulamento\Encapsulamento.csproj" />
   </ItemGroup>
 
 </Project>

@@ -4,7 +4,8 @@ using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClasseEMetodos;
-using CursoCSharp.Colecoes;
+using CursoCSharp.Colecoes; 
+using CursoCSharp.OO; 
 
 namespace CursoCSharp
 {
@@ -52,6 +53,11 @@ namespace CursoCSharp
                 {"Igualdade - Coleções", Igualdade.Executar}, 
                 {"Stack - Coleções", ColecaoStack.Executar}, 
                 {"Dicionario - Coleções", ColecaoDicionario.Executar}, 
+
+                {"Herança - OO", Heranca.Executar}, 
+                {"Construtor This - OO", ConstrutorThis.Executar},
+                {"Encapsulamento - OO", UsandoEncapsulamento.Executar}, 
+                {"Polimorfismo - OO", Polimorfismo.Executar}, 
             });
 
             central.SelecionarEExecutar();
