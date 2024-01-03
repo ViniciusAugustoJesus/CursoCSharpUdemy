@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CursoCSharp.OO
 {
@@ -19,17 +17,15 @@ namespace CursoCSharp.OO
 
     public class Feijao : Comida
     {
-        public double Peso;
     }
 
     public class Arroz : Comida
     {
-        public double Peso;
     }
 
     public class Carne : Comida
     {
-        public double Peso;
+
     }
 
     public class Pessoa
@@ -72,8 +68,8 @@ namespace CursoCSharp.OO
 
             Pessoa cliente = new Pessoa();
             cliente.Peso = 80.2;
-            cliente.Comer(ingrediente1); 
-            cliente.Comer(ingrediente2); 
+            cliente.Comer(ingrediente1);
+            cliente.Comer(ingrediente2);
             cliente.Comer(ingrediente3);
 
             Console.WriteLine($"Agora o peso do cliente é {cliente.Peso}Kg");

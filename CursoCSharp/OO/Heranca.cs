@@ -45,31 +45,31 @@
 
     }
 
-    public class Uno : Carro
-    {
-        public Uno() : base(200)
-        {
+    //public class Uno : Carro
+    //{
+    //    public Uno() : base(200)
+    //    {
 
-        }
-    }
+    //    }
+    //}
 
-    public class Ferrari : Carro
-    {
-        public Ferrari() : base(350)
-        {
+    //public class Ferrari : Carro
+    //{
+    //    public Ferrari() : base(350)
+    //    {
 
-        }
+    //    }
 
-        public override int Acelerar()
-        {
-            return AlterarVelocidade(15);
-        }
+    //    public override int Acelerar()
+    //    {
+    //        return AlterarVelocidade(15);
+    //    }
 
-        public new int Frear()
-        {
-            return AlterarVelocidade(-15);
-            }
-    }
+    //    public new int Frear()
+    //    {
+    //        return AlterarVelocidade(-15);
+    //        }
+    //}
 
 
     class Heranca
@@ -77,11 +77,11 @@
         public static void Executar()
         {
             System.Console.WriteLine("Uno...");
-            Uno carro1 = new Uno();
-            System.Console.WriteLine(carro1.Acelerar()); 
-            System.Console.WriteLine(carro1.Acelerar()); 
-            System.Console.WriteLine(carro1.Frear()); 
-            System.Console.WriteLine(carro1.Frear()); 
+            //Uno carro1 = new Uno();
+            //System.Console.WriteLine(carro1.Acelerar()); 
+            //System.Console.WriteLine(carro1.Acelerar()); 
+            //System.Console.WriteLine(carro1.Frear()); 
+            //System.Console.WriteLine(carro1.Frear()); 
             
         }
     }
