@@ -6,7 +6,8 @@ using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClasseEMetodos;
 using CursoCSharp.Colecoes; 
 using CursoCSharp.OO; 
-using CursoCSharp.MetodosEFuncoes; 
+using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.API;
 
 namespace CursoCSharp
 {
@@ -65,6 +66,15 @@ namespace CursoCSharp
                 {"Lambda - Metodos e Funcoes", Lambda.Executar}, 
                 {"Delegate Com Lambda - Metodos e Funcoes", DelegateComLambda.Executar}, 
                 {"Usando Delegate - Metodos e Funcoes", UsandoDelegate.Executar}, 
+
+                {"Primeiro Arquivo - API", PrimeiroArquivo.Executar}, 
+                {"Lendo Arquivo - API", LendoArquivos.Executar}, 
+                {"ExemploFileInfo - API", ExemploFileInfo.Executar}, 
+                {"Diretorios - API", Diretorios.Executar}, 
+                {"ExemploDirectoryInfo - API", ExemploDirectoryInfo.Executar}, 
+                {"Usando Path - API", UsandoPath.Executar}, 
+                {"Usando DateTime - API", UsandoDateTime.Executar}, 
+                {"Usando TimeSpan - API", UsandoTimeSpan.Executar}, 
 
             });
 
